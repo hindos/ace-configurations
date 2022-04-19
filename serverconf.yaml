@@ -1,0 +1,22 @@
+Defaults:
+  policyProject: 'DefaultPolicies'
+  Policies:
+    HTTPSConnector: 'HTTPS'
+
+ResourceManagers:
+  JVM:
+    truststoreType: 'JKS'
+    truststoreFile: '/home/aceuser/truststores/tiger-bank-ace-server-truststore.jks'
+    truststorePass: 'setdbparms::truststore'
+
+    keystoreType: 'JKS'
+    keystoreFile: '/home/aceuser/keystores/tiger-bank-ace-server-keystore.jks'
+    keystorePass: 'setdbparms::keystore'
+
+  HTTPSConnector:
+    ReqClientAuth: true
+    CipherSpec: 'TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384'
+
+BrokerRegistry:
+  mqKeyRepository: '/home/aceuser/keystores/tiger-bank-ace-server'
+

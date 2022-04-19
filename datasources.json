@@ -1,0 +1,11 @@
+{
+	"customer_updates": {
+		"name": "customer_updates",
+		"connector": "mongodb",
+		"host": "mongodb.mongodb-tb1",
+		"port": 27017,
+		"database": "customer_updates",
+		"username": "admin",
+		"password": "passw0rd"
+	}
+}

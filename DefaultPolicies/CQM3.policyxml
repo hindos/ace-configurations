@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+  <policy policyType="MQEndpoint" policyName="CQM3" policyTemplate="MQEndpoint">
+    <connection>CLIENT</connection>
+    <destinationQueueManagerName>CQM3</destinationQueueManagerName>
+    <queueManagerHostname>cqm3-ibm-mq.mq-tb1</queueManagerHostname>
+    <listenerPortNumber>1414</listenerPortNumber>
+    <channelName>DEV.APP.SVRCONN</channelName>
+    <securityIdentity>app</securityIdentity>
+    <useSSL>true</useSSL>
+    <SSLPeerName></SSLPeerName>
+    <SSLCipherSpec>ECDHE_RSA_AES_256_CBC_SHA384</SSLCipherSpec>
+  </policy>
+</policies>
