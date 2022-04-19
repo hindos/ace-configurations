@@ -2,7 +2,7 @@
 	"customer_updates": {
 		"name": "customer_updates",
 		"connector": "mongodb",
-		"host": "mongodb.mongodb-tb1",
+		"host": "mongodb.mongodb-dev",
 		"port": 27017,
 		"database": "customer_updates",
 		"username": "admin",
