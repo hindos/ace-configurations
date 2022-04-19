@@ -3,7 +3,7 @@
   <policy policyType="MQEndpoint" policyName="CQM3" policyTemplate="MQEndpoint">
     <connection>CLIENT</connection>
     <destinationQueueManagerName>CQM3</destinationQueueManagerName>
-    <queueManagerHostname>cqm3-ibm-mq.mq-tb1</queueManagerHostname>
+    <queueManagerHostname>cqm3-ibm-mq.mq-dev</queueManagerHostname>
     <listenerPortNumber>1414</listenerPortNumber>
     <channelName>DEV.APP.SVRCONN</channelName>
     <securityIdentity>app</securityIdentity>
